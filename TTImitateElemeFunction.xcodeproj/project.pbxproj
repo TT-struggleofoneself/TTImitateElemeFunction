@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBD55C151CC9B69F0014C52F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD55C141CC9B69F0014C52F /* main.m */; };
+		EBD55C181CC9B69F0014C52F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD55C171CC9B69F0014C52F /* AppDelegate.m */; };
+		EBD55C1B1CC9B69F0014C52F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD55C1A1CC9B69F0014C52F /* ViewController.m */; };
+		EBD55C1E1CC9B69F0014C52F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD55C1C1CC9B69F0014C52F /* Main.storyboard */; };
+		EBD55C201CC9B69F0014C52F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD55C1F1CC9B69F0014C52F /* Assets.xcassets */; };
+		EBD55C231CC9B69F0014C52F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD55C211CC9B69F0014C52F /* LaunchScreen.storyboard */; };
+		EBD55C2E1CC9B69F0014C52F /* TTImitateElemeFunctionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD55C2D1CC9B69F0014C52F /* TTImitateElemeFunctionTests.m */; };
+		EBD55C391CC9B6A00014C52F /* TTImitateElemeFunctionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD55C381CC9B6A00014C52F /* TTImitateElemeFunctionUITests.m */; };
+		EBD55C481CC9CA920014C52F /* TTScrollview.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD55C471CC9CA920014C52F /* TTScrollview.m */; };
+		EBD55C4B1CC9CAA80014C52F /* TTTabelview.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD55C4A1CC9CAA80014C52F /* TTTabelview.m */; };
+		EBD55C4C1CC9CF910014C52F /* TTScrollview.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD55C471CC9CA920014C52F /* TTScrollview.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBD55C2A1CC9B69F0014C52F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBD55C081CC9B69F0014C52F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBD55C0F1CC9B69F0014C52F;
+			remoteInfo = TTImitateElemeFunction;
+		};
+		EBD55C351CC9B6A00014C52F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBD55C081CC9B69F0014C52F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBD55C0F1CC9B69F0014C52F;
+			remoteInfo = TTImitateElemeFunction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBD55C101CC9B69F0014C52F /* TTImitateElemeFunction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTImitateElemeFunction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD55C141CC9B69F0014C52F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBD55C161CC9B69F0014C52F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBD55C171CC9B69F0014C52F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBD55C191CC9B69F0014C52F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EBD55C1A1CC9B69F0014C52F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EBD55C1D1CC9B69F0014C52F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBD55C1F1CC9B69F0014C52F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBD55C221CC9B69F0014C52F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBD55C241CC9B69F0014C52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD55C291CC9B69F0014C52F /* TTImitateElemeFunctionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTImitateElemeFunctionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD55C2D1CC9B69F0014C52F /* TTImitateElemeFunctionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTImitateElemeFunctionTests.m; sourceTree = "<group>"; };
+		EBD55C2F1CC9B6A00014C52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD55C341CC9B6A00014C52F /* TTImitateElemeFunctionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTImitateElemeFunctionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD55C381CC9B6A00014C52F /* TTImitateElemeFunctionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTImitateElemeFunctionUITests.m; sourceTree = "<group>"; };
+		EBD55C3A1CC9B6A00014C52F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBD55C461CC9CA920014C52F /* TTScrollview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTScrollview.h; sourceTree = "<group>"; };
+		EBD55C471CC9CA920014C52F /* TTScrollview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTScrollview.m; sourceTree = "<group>"; };
+		EBD55C491CC9CAA80014C52F /* TTTabelview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTabelview.h; sourceTree = "<group>"; };
+		EBD55C4A1CC9CAA80014C52F /* TTTabelview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTabelview.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBD55C0D1CC9B69F0014C52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD55C261CC9B69F0014C52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD55C311CC9B6A00014C52F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBD55C071CC9B69F0014C52F = {
+			isa = PBXGroup;
+			children = (
+				EBD55C121CC9B69F0014C52F /* TTImitateElemeFunction */,
+				EBD55C2C1CC9B69F0014C52F /* TTImitateElemeFunctionTests */,
+				EBD55C371CC9B6A00014C52F /* TTImitateElemeFunctionUITests */,
+				EBD55C111CC9B69F0014C52F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBD55C111CC9B69F0014C52F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBD55C101CC9B69F0014C52F /* TTImitateElemeFunction.app */,
+				EBD55C291CC9B69F0014C52F /* TTImitateElemeFunctionTests.xctest */,
+				EBD55C341CC9B6A00014C52F /* TTImitateElemeFunctionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBD55C121CC9B69F0014C52F /* TTImitateElemeFunction */ = {
+			isa = PBXGroup;
+			children = (
+				EBD55C161CC9B69F0014C52F /* AppDelegate.h */,
+				EBD55C171CC9B69F0014C52F /* AppDelegate.m */,
+				EBD55C191CC9B69F0014C52F /* ViewController.h */,
+				EBD55C1A1CC9B69F0014C52F /* ViewController.m */,
+				EBD55C1C1CC9B69F0014C52F /* Main.storyboard */,
+				EBD55C491CC9CAA80014C52F /* TTTabelview.h */,
+				EBD55C4A1CC9CAA80014C52F /* TTTabelview.m */,
+				EBD55C461CC9CA920014C52F /* TTScrollview.h */,
+				EBD55C471CC9CA920014C52F /* TTScrollview.m */,
+				EBD55C1F1CC9B69F0014C52F /* Assets.xcassets */,
+				EBD55C211CC9B69F0014C52F /* LaunchScreen.storyboard */,
+				EBD55C241CC9B69F0014C52F /* Info.plist */,
+				EBD55C131CC9B69F0014C52F /* Supporting Files */,
+			);
+			path = TTImitateElemeFunction;
+			sourceTree = "<group>";
+		};
+		EBD55C131CC9B69F0014C52F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBD55C141CC9B69F0014C52F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBD55C2C1CC9B69F0014C52F /* TTImitateElemeFunctionTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBD55C2D1CC9B69F0014C52F /* TTImitateElemeFunctionTests.m */,
+				EBD55C2F1CC9B6A00014C52F /* Info.plist */,
+			);
+			path = TTImitateElemeFunctionTests;
+			sourceTree = "<group>";
+		};
+		EBD55C371CC9B6A00014C52F /* TTImitateElemeFunctionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBD55C381CC9B6A00014C52F /* TTImitateElemeFunctionUITests.m */,
+				EBD55C3A1CC9B6A00014C52F /* Info.plist */,
+			);
+			path = TTImitateElemeFunctionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBD55C0F1CC9B69F0014C52F /* TTImitateElemeFunction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD55C3D1CC9B6A00014C52F /* Build configuration list for PBXNativeTarget "TTImitateElemeFunction" */;
+			buildPhases = (
+				EBD55C0C1CC9B69F0014C52F /* Sources */,
+				EBD55C0D1CC9B69F0014C52F /* Frameworks */,
+				EBD55C0E1CC9B69F0014C52F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTImitateElemeFunction;
+			productName = TTImitateElemeFunction;
+			productReference = EBD55C101CC9B69F0014C52F /* TTImitateElemeFunction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBD55C281CC9B69F0014C52F /* TTImitateElemeFunctionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD55C401CC9B6A00014C52F /* Build configuration list for PBXNativeTarget "TTImitateElemeFunctionTests" */;
+			buildPhases = (
+				EBD55C251CC9B69F0014C52F /* Sources */,
+				EBD55C261CC9B69F0014C52F /* Frameworks */,
+				EBD55C271CC9B69F0014C52F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBD55C2B1CC9B69F0014C52F /* PBXTargetDependency */,
+			);
+			name = TTImitateElemeFunctionTests;
+			productName = TTImitateElemeFunctionTests;
+			productReference = EBD55C291CC9B69F0014C52F /* TTImitateElemeFunctionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBD55C331CC9B6A00014C52F /* TTImitateElemeFunctionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD55C431CC9B6A00014C52F /* Build configuration list for PBXNativeTarget "TTImitateElemeFunctionUITests" */;
+			buildPhases = (
+				EBD55C301CC9B6A00014C52F /* Sources */,
+				EBD55C311CC9B6A00014C52F /* Frameworks */,
+				EBD55C321CC9B6A00014C52F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBD55C361CC9B6A00014C52F /* PBXTargetDependency */,
+			);
+			name = TTImitateElemeFunctionUITests;
+			productName = TTImitateElemeFunctionUITests;
+			productReference = EBD55C341CC9B6A00014C52F /* TTImitateElemeFunctionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBD55C081CC9B69F0014C52F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TT_code;
+				TargetAttributes = {
+					EBD55C0F1CC9B69F0014C52F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EBD55C281CC9B69F0014C52F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EBD55C0F1CC9B69F0014C52F;
+					};
+					EBD55C331CC9B6A00014C52F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EBD55C0F1CC9B69F0014C52F;
+					};
+				};
+			};
+			buildConfigurationList = EBD55C0B1CC9B69F0014C52F /* Build configuration list for PBXProject "TTImitateElemeFunction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBD55C071CC9B69F0014C52F;
+			productRefGroup = EBD55C111CC9B69F0014C52F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBD55C0F1CC9B69F0014C52F /* TTImitateElemeFunction */,
+				EBD55C281CC9B69F0014C52F /* TTImitateElemeFunctionTests */,
+				EBD55C331CC9B6A00014C52F /* TTImitateElemeFunctionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBD55C0E1CC9B69F0014C52F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD55C231CC9B69F0014C52F /* LaunchScreen.storyboard in Resources */,
+				EBD55C201CC9B69F0014C52F /* Assets.xcassets in Resources */,
+				EBD55C1E1CC9B69F0014C52F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD55C271CC9B69F0014C52F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD55C321CC9B6A00014C52F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBD55C0C1CC9B69F0014C52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD55C1B1CC9B69F0014C52F /* ViewController.m in Sources */,
+				EBD55C181CC9B69F0014C52F /* AppDelegate.m in Sources */,
+				EBD55C151CC9B69F0014C52F /* main.m in Sources */,
+				EBD55C4B1CC9CAA80014C52F /* TTTabelview.m in Sources */,
+				EBD55C481CC9CA920014C52F /* TTScrollview.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD55C251CC9B69F0014C52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD55C2E1CC9B69F0014C52F /* TTImitateElemeFunctionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD55C301CC9B6A00014C52F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD55C391CC9B6A00014C52F /* TTImitateElemeFunctionUITests.m in Sources */,
+				EBD55C4C1CC9CF910014C52F /* TTScrollview.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBD55C2B1CC9B69F0014C52F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBD55C0F1CC9B69F0014C52F /* TTImitateElemeFunction */;
+			targetProxy = EBD55C2A1CC9B69F0014C52F /* PBXContainerItemProxy */;
+		};
+		EBD55C361CC9B6A00014C52F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBD55C0F1CC9B69F0014C52F /* TTImitateElemeFunction */;
+			targetProxy = EBD55C351CC9B6A00014C52F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBD55C1C1CC9B69F0014C52F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD55C1D1CC9B69F0014C52F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBD55C211CC9B69F0014C52F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBD55C221CC9B69F0014C52F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBD55C3B1CC9B6A00014C52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBD55C3C1CC9B6A00014C52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBD55C3E1CC9B6A00014C52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTImitateElemeFunction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TTImitateElemeFunction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBD55C3F1CC9B6A00014C52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTImitateElemeFunction/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TTImitateElemeFunction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EBD55C411CC9B6A00014C52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TTImitateElemeFunctionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TTImitateElemeFunctionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTImitateElemeFunction.app/TTImitateElemeFunction";
+			};
+			name = Debug;
+		};
+		EBD55C421CC9B6A00014C52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TTImitateElemeFunctionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TTImitateElemeFunctionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTImitateElemeFunction.app/TTImitateElemeFunction";
+			};
+			name = Release;
+		};
+		EBD55C441CC9B6A00014C52F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TTImitateElemeFunctionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TTImitateElemeFunctionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TTImitateElemeFunction;
+			};
+			name = Debug;
+		};
+		EBD55C451CC9B6A00014C52F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TTImitateElemeFunctionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TTImitateElemeFunctionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TTImitateElemeFunction;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBD55C0B1CC9B69F0014C52F /* Build configuration list for PBXProject "TTImitateElemeFunction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD55C3B1CC9B6A00014C52F /* Debug */,
+				EBD55C3C1CC9B6A00014C52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD55C3D1CC9B6A00014C52F /* Build configuration list for PBXNativeTarget "TTImitateElemeFunction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD55C3E1CC9B6A00014C52F /* Debug */,
+				EBD55C3F1CC9B6A00014C52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBD55C401CC9B6A00014C52F /* Build configuration list for PBXNativeTarget "TTImitateElemeFunctionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD55C411CC9B6A00014C52F /* Debug */,
+				EBD55C421CC9B6A00014C52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBD55C431CC9B6A00014C52F /* Build configuration list for PBXNativeTarget "TTImitateElemeFunctionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD55C441CC9B6A00014C52F /* Debug */,
+				EBD55C451CC9B6A00014C52F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBD55C081CC9B69F0014C52F /* Project object */;
+}
